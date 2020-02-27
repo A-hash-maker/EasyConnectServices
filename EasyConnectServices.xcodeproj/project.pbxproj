@@ -13,6 +13,12 @@
 		AF5FA2F2240742B5008A8C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA2F0240742B5008A8C16 /* Main.storyboard */; };
 		AF5FA2F4240742B7008A8C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA2F3240742B7008A8C16 /* Assets.xcassets */; };
 		AF5FA2F7240742B7008A8C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA2F5240742B7008A8C16 /* LaunchScreen.storyboard */; };
+		AF5FA30724074301008A8C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FA30624074301008A8C16 /* AppDelegate.swift */; };
+		AF5FA30924074301008A8C16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FA30824074301008A8C16 /* SceneDelegate.swift */; };
+		AF5FA30B24074301008A8C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FA30A24074301008A8C16 /* ViewController.swift */; };
+		AF5FA30E24074301008A8C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA30C24074301008A8C16 /* Main.storyboard */; };
+		AF5FA31324074303008A8C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA31124074303008A8C16 /* LaunchScreen.storyboard */; };
+		AF5FA3182407431D008A8C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA2F3240742B7008A8C16 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,24 @@
 		AF5FA2F3240742B7008A8C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF5FA2F6240742B7008A8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF5FA2F8240742B7008A8C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5FA30424074301008A8C16 /* EasyConnectServicesAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyConnectServicesAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5FA30624074301008A8C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF5FA30824074301008A8C16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF5FA30A24074301008A8C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF5FA30D24074301008A8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF5FA31224074303008A8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF5FA31424074303008A8C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AF5FA2E4240742B5008A8C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5FA30124074301008A8C16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +60,9 @@
 		AF5FA2DE240742B5008A8C16 = {
 			isa = PBXGroup;
 			children = (
+				AF5FA2FF240742D2008A8C16 /* Shared */,
 				AF5FA2E9240742B5008A8C16 /* EasyConnectServices */,
+				AF5FA30524074301008A8C16 /* EasyConnectServicesAdmin */,
 				AF5FA2E8240742B5008A8C16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				AF5FA2E7240742B5008A8C16 /* EasyConnectServices.app */,
+				AF5FA30424074301008A8C16 /* EasyConnectServicesAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,11 +83,31 @@
 				AF5FA2EC240742B5008A8C16 /* SceneDelegate.swift */,
 				AF5FA2EE240742B5008A8C16 /* ViewController.swift */,
 				AF5FA2F0240742B5008A8C16 /* Main.storyboard */,
-				AF5FA2F3240742B7008A8C16 /* Assets.xcassets */,
 				AF5FA2F5240742B7008A8C16 /* LaunchScreen.storyboard */,
 				AF5FA2F8240742B7008A8C16 /* Info.plist */,
 			);
 			path = EasyConnectServices;
+			sourceTree = "<group>";
+		};
+		AF5FA2FF240742D2008A8C16 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FA2F3240742B7008A8C16 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AF5FA30524074301008A8C16 /* EasyConnectServicesAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FA30624074301008A8C16 /* AppDelegate.swift */,
+				AF5FA30824074301008A8C16 /* SceneDelegate.swift */,
+				AF5FA30A24074301008A8C16 /* ViewController.swift */,
+				AF5FA30C24074301008A8C16 /* Main.storyboard */,
+				AF5FA31124074303008A8C16 /* LaunchScreen.storyboard */,
+				AF5FA31424074303008A8C16 /* Info.plist */,
+			);
+			path = EasyConnectServicesAdmin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +130,23 @@
 			productReference = AF5FA2E7240742B5008A8C16 /* EasyConnectServices.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AF5FA30324074301008A8C16 /* EasyConnectServicesAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5FA31524074303008A8C16 /* Build configuration list for PBXNativeTarget "EasyConnectServicesAdmin" */;
+			buildPhases = (
+				AF5FA30024074301008A8C16 /* Sources */,
+				AF5FA30124074301008A8C16 /* Frameworks */,
+				AF5FA30224074301008A8C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyConnectServicesAdmin;
+			productName = EasyConnectServicesAdmin;
+			productReference = AF5FA30424074301008A8C16 /* EasyConnectServicesAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +158,9 @@
 				ORGANIZATIONNAME = "vipin kumar";
 				TargetAttributes = {
 					AF5FA2E6240742B5008A8C16 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					AF5FA30324074301008A8C16 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -116,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				AF5FA2E6240742B5008A8C16 /* EasyConnectServices */,
+				AF5FA30324074301008A8C16 /* EasyConnectServicesAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +195,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF5FA30224074301008A8C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FA31324074303008A8C16 /* LaunchScreen.storyboard in Resources */,
+				AF5FA3182407431D008A8C16 /* Assets.xcassets in Resources */,
+				AF5FA30E24074301008A8C16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +215,16 @@
 				AF5FA2EF240742B5008A8C16 /* ViewController.swift in Sources */,
 				AF5FA2EB240742B5008A8C16 /* AppDelegate.swift in Sources */,
 				AF5FA2ED240742B5008A8C16 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5FA30024074301008A8C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FA30B24074301008A8C16 /* ViewController.swift in Sources */,
+				AF5FA30724074301008A8C16 /* AppDelegate.swift in Sources */,
+				AF5FA30924074301008A8C16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +243,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				AF5FA2F6240742B7008A8C16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF5FA30C24074301008A8C16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5FA30D24074301008A8C16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF5FA31124074303008A8C16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5FA31224074303008A8C16 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +416,42 @@
 			};
 			name = Release;
 		};
+		AF5FA31624074303008A8C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U377VZ4977;
+				INFOPLIST_FILE = EasyConnectServicesAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Code.EasyConnectServicesAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5FA31724074303008A8C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U377VZ4977;
+				INFOPLIST_FILE = EasyConnectServicesAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Code.EasyConnectServicesAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +469,15 @@
 			buildConfigurations = (
 				AF5FA2FC240742B7008A8C16 /* Debug */,
 				AF5FA2FD240742B7008A8C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5FA31524074303008A8C16 /* Build configuration list for PBXNativeTarget "EasyConnectServicesAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5FA31624074303008A8C16 /* Debug */,
+				AF5FA31724074303008A8C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
