@@ -3,13 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5551FCD792DF03FD824674E1 /* Pods_EasyConnectServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0A730F6887BED871C7AE4C /* Pods_EasyConnectServices.framework */; };
+		AF4618C2245AA0B700C5AA35 /* PeoplePhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4618C0245AA0B700C5AA35 /* PeoplePhotoVC.swift */; };
+		AF4618C3245AA0B700C5AA35 /* PeoplePhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4618C0245AA0B700C5AA35 /* PeoplePhotoVC.swift */; };
+		AF4618C4245AA0B700C5AA35 /* PeoplePhotoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4618C1245AA0B700C5AA35 /* PeoplePhotoVC.xib */; };
+		AF4618C5245AA0B700C5AA35 /* PeoplePhotoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4618C1245AA0B700C5AA35 /* PeoplePhotoVC.xib */; };
+		AF46190C2460404200C5AA35 /* PeopleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46190A2460404200C5AA35 /* PeopleDetailVC.swift */; };
+		AF46190D2460404200C5AA35 /* PeopleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46190A2460404200C5AA35 /* PeopleDetailVC.swift */; };
+		AF46190E2460404200C5AA35 /* PeopleDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF46190B2460404200C5AA35 /* PeopleDetailVC.xib */; };
+		AF46190F2460404200C5AA35 /* PeopleDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF46190B2460404200C5AA35 /* PeopleDetailVC.xib */; };
+		AF4619302462733400C5AA35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800982416166C00717AA1 /* Constants.swift */; };
+		AF59D8C62449C97D00227096 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8C42449C97C00227096 /* ForgetPasswordVC.swift */; };
+		AF59D8C72449C97D00227096 /* ForgetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF59D8C52449C97D00227096 /* ForgetPasswordVC.xib */; };
+		AF59D8CC2449E61500227096 /* FirebaseUlts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8CB2449E61500227096 /* FirebaseUlts.swift */; };
+		AF59D8CD2449E61500227096 /* FirebaseUlts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8CB2449E61500227096 /* FirebaseUlts.swift */; };
+		AF59D8D5244AB80500227096 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8D4244AB80500227096 /* Category.swift */; };
+		AF59D8D6244AB80500227096 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8D4244AB80500227096 /* Category.swift */; };
+		AF59D8DF244C18B600227096 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8DD244C18B600227096 /* CategoryCell.swift */; };
+		AF59D8E0244C18B600227096 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8DD244C18B600227096 /* CategoryCell.swift */; };
+		AF59D8E1244C18B600227096 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF59D8DE244C18B600227096 /* CategoryCell.xib */; };
+		AF59D8E2244C18B600227096 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF59D8DE244C18B600227096 /* CategoryCell.xib */; };
+		AF59D8EA244C779D00227096 /* PeopleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8E9244C779C00227096 /* PeopleVC.swift */; };
+		AF59D8EB244C779D00227096 /* PeopleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8E9244C779C00227096 /* PeopleVC.swift */; };
+		AF59D8ED244C77E500227096 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8EC244C77E500227096 /* People.swift */; };
+		AF59D8EE244C77E500227096 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8EC244C77E500227096 /* People.swift */; };
+		AF59D8F7244D2F8A00227096 /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8F5244D2F8A00227096 /* PeopleCell.swift */; };
+		AF59D8F8244D2F8A00227096 /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8F5244D2F8A00227096 /* PeopleCell.swift */; };
+		AF59D8F9244D2F8A00227096 /* PeopleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF59D8F6244D2F8A00227096 /* PeopleCell.xib */; };
+		AF59D8FA244D2F8A00227096 /* PeopleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF59D8F6244D2F8A00227096 /* PeopleCell.xib */; };
 		AF5FA2EB240742B5008A8C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FA2EA240742B5008A8C16 /* AppDelegate.swift */; };
 		AF5FA2ED240742B5008A8C16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FA2EC240742B5008A8C16 /* SceneDelegate.swift */; };
-		AF5FA2EF240742B5008A8C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FA2EE240742B5008A8C16 /* ViewController.swift */; };
 		AF5FA2F2240742B5008A8C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA2F0240742B5008A8C16 /* Main.storyboard */; };
 		AF5FA2F4240742B7008A8C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA2F3240742B7008A8C16 /* Assets.xcassets */; };
 		AF5FA2F7240742B7008A8C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA2F5240742B7008A8C16 /* LaunchScreen.storyboard */; };
@@ -18,14 +45,54 @@
 		AF5FA30B24074301008A8C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FA30A24074301008A8C16 /* ViewController.swift */; };
 		AF5FA30E24074301008A8C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA30C24074301008A8C16 /* Main.storyboard */; };
 		AF5FA31324074303008A8C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA31124074303008A8C16 /* LaunchScreen.storyboard */; };
-		AF5FA3182407431D008A8C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA2F3240742B7008A8C16 /* Assets.xcassets */; };
+		AF631C94240A1802000CFFC6 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF631C93240A1802000CFFC6 /* LoginStoryboard.storyboard */; };
+		AF631C9A240A38F6000CFFC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF631C99240A38F6000CFFC6 /* GoogleService-Info.plist */; };
+		AF631C9C240A3AB8000CFFC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF631C9B240A3AB8000CFFC6 /* GoogleService-Info.plist */; };
+		AF631CAA240B91F0000CFFC6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF631CA9240B91F0000CFFC6 /* LoginVC.swift */; };
+		AF631CAC240B9204000CFFC6 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF631CAB240B9204000CFFC6 /* RegisterVC.swift */; };
+		AF6F8A2C24644750009A7720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA2F3240742B7008A8C16 /* Assets.xcassets */; };
+		AF6F8A2E24654D07009A7720 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F8A2D24654D07009A7720 /* EditProfileVC.swift */; };
+		AF6F8A3024666D08009A7720 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6F8A2F24666D08009A7720 /* LoginStoryboard.storyboard */; };
+		AF6F8A322466E1AC009A7720 /* EasyConnectServicesAdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F8A312466E1AC009A7720 /* EasyConnectServicesAdminVC.swift */; };
+		AF6F8A342466E7FB009A7720 /* AdminLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F8A332466E7FA009A7720 /* AdminLoginVC.swift */; };
+		AF6F8A362466E810009A7720 /* AdminRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F8A352466E810009A7720 /* AdminRegisterVC.swift */; };
+		AF6F8A372466EA4E009A7720 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF631CAB240B9204000CFFC6 /* RegisterVC.swift */; };
+		AF6F8A382466EA52009A7720 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF631CA9240B91F0000CFFC6 /* LoginVC.swift */; };
+		AF6F8A3A2466EC28009A7720 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800962416166000717AA1 /* Extension.swift */; };
+		AF6F8A3B2466EC55009A7720 /* ForgetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF59D8C52449C97D00227096 /* ForgetPasswordVC.xib */; };
+		AF6F8A3C2466EC5A009A7720 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59D8C42449C97C00227096 /* ForgetPasswordVC.swift */; };
+		AF6F8A3E2466F1AA009A7720 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F8A3D2466F1AA009A7720 /* InfoVC.swift */; };
+		AFA800972416166000717AA1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800962416166000717AA1 /* Extension.swift */; };
+		AFA800992416166C00717AA1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800982416166C00717AA1 /* Constants.swift */; };
+		AFA800A124162D3E00717AA1 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800A024162D3E00717AA1 /* RoundedViews.swift */; };
+		AFA800A224162D3E00717AA1 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800A024162D3E00717AA1 /* RoundedViews.swift */; };
+		AFA800A624171F9C00717AA1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800A524171F9C00717AA1 /* HomeVC.swift */; };
+		FD520098369945E8E6F53E4E /* Pods_EasyConnectServicesAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D64953830D9B58C01438EA /* Pods_EasyConnectServicesAdmin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35D64953830D9B58C01438EA /* Pods_EasyConnectServicesAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyConnectServicesAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43069032FAE0DE40B135205D /* Pods-EasyConnectServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyConnectServices.release.xcconfig"; path = "Target Support Files/Pods-EasyConnectServices/Pods-EasyConnectServices.release.xcconfig"; sourceTree = "<group>"; };
+		56A7769BDB183BAE5714058D /* Pods-EasyConnectServicesAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyConnectServicesAdmin.release.xcconfig"; path = "Target Support Files/Pods-EasyConnectServicesAdmin/Pods-EasyConnectServicesAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		6A0A730F6887BED871C7AE4C /* Pods_EasyConnectServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyConnectServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782F39D4CE11C7F9D659E64E /* Pods-EasyConnectServicesAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyConnectServicesAdmin.debug.xcconfig"; path = "Target Support Files/Pods-EasyConnectServicesAdmin/Pods-EasyConnectServicesAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4618C0245AA0B700C5AA35 /* PeoplePhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplePhotoVC.swift; sourceTree = "<group>"; };
+		AF4618C1245AA0B700C5AA35 /* PeoplePhotoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeoplePhotoVC.xib; sourceTree = "<group>"; };
+		AF46190A2460404200C5AA35 /* PeopleDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailVC.swift; sourceTree = "<group>"; };
+		AF46190B2460404200C5AA35 /* PeopleDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleDetailVC.xib; sourceTree = "<group>"; };
+		AF59D8C42449C97C00227096 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		AF59D8C52449C97D00227096 /* ForgetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPasswordVC.xib; sourceTree = "<group>"; };
+		AF59D8CB2449E61500227096 /* FirebaseUlts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUlts.swift; sourceTree = "<group>"; };
+		AF59D8D4244AB80500227096 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AF59D8DD244C18B600227096 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		AF59D8DE244C18B600227096 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		AF59D8E9244C779C00227096 /* PeopleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleVC.swift; sourceTree = "<group>"; };
+		AF59D8EC244C77E500227096 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		AF59D8F5244D2F8A00227096 /* PeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		AF59D8F6244D2F8A00227096 /* PeopleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleCell.xib; sourceTree = "<group>"; };
 		AF5FA2E7240742B5008A8C16 /* EasyConnectServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyConnectServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5FA2EA240742B5008A8C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF5FA2EC240742B5008A8C16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF5FA2EE240742B5008A8C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF5FA2F1240742B5008A8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF5FA2F3240742B7008A8C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF5FA2F6240742B7008A8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +104,22 @@
 		AF5FA30D24074301008A8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF5FA31224074303008A8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF5FA31424074303008A8C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF631C93240A1802000CFFC6 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		AF631C99240A38F6000CFFC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF631C9B240A3AB8000CFFC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF631CA9240B91F0000CFFC6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AF631CAB240B9204000CFFC6 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		AF6F8A2D24654D07009A7720 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		AF6F8A2F24666D08009A7720 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		AF6F8A312466E1AC009A7720 /* EasyConnectServicesAdminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyConnectServicesAdminVC.swift; sourceTree = "<group>"; };
+		AF6F8A332466E7FA009A7720 /* AdminLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginVC.swift; sourceTree = "<group>"; };
+		AF6F8A352466E810009A7720 /* AdminRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRegisterVC.swift; sourceTree = "<group>"; };
+		AF6F8A3D2466F1AA009A7720 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		AFA800962416166000717AA1 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		AFA800982416166C00717AA1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AFA800A024162D3E00717AA1 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		AFA800A524171F9C00717AA1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D052AB6E14390F8C1F9D1222 /* Pods-EasyConnectServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyConnectServices.debug.xcconfig"; path = "Target Support Files/Pods-EasyConnectServices/Pods-EasyConnectServices.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5551FCD792DF03FD824674E1 /* Pods_EasyConnectServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,12 +135,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD520098369945E8E6F53E4E /* Pods_EasyConnectServicesAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18DEE5BED1597E9AAD3BC45D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D052AB6E14390F8C1F9D1222 /* Pods-EasyConnectServices.debug.xcconfig */,
+				43069032FAE0DE40B135205D /* Pods-EasyConnectServices.release.xcconfig */,
+				782F39D4CE11C7F9D659E64E /* Pods-EasyConnectServicesAdmin.debug.xcconfig */,
+				56A7769BDB183BAE5714058D /* Pods-EasyConnectServicesAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF59D8C32449C95C00227096 /* XIB's */ = {
+			isa = PBXGroup;
+			children = (
+				AF59D8C42449C97C00227096 /* ForgetPasswordVC.swift */,
+				AF59D8C52449C97D00227096 /* ForgetPasswordVC.xib */,
+				AF46190A2460404200C5AA35 /* PeopleDetailVC.swift */,
+				AF46190B2460404200C5AA35 /* PeopleDetailVC.xib */,
+				AF4618C0245AA0B700C5AA35 /* PeoplePhotoVC.swift */,
+				AF4618C1245AA0B700C5AA35 /* PeoplePhotoVC.xib */,
+			);
+			path = "XIB's";
+			sourceTree = "<group>";
+		};
 		AF5FA2DE240742B5008A8C16 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +173,8 @@
 				AF5FA2E9240742B5008A8C16 /* EasyConnectServices */,
 				AF5FA30524074301008A8C16 /* EasyConnectServicesAdmin */,
 				AF5FA2E8240742B5008A8C16 /* Products */,
+				18DEE5BED1597E9AAD3BC45D /* Pods */,
+				C74978DD46DA74DC2EDDF21C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,11 +190,11 @@
 		AF5FA2E9240742B5008A8C16 /* EasyConnectServices */ = {
 			isa = PBXGroup;
 			children = (
-				AF5FA2EA240742B5008A8C16 /* AppDelegate.swift */,
-				AF5FA2EC240742B5008A8C16 /* SceneDelegate.swift */,
-				AF5FA2EE240742B5008A8C16 /* ViewController.swift */,
-				AF5FA2F0240742B5008A8C16 /* Main.storyboard */,
-				AF5FA2F5240742B7008A8C16 /* LaunchScreen.storyboard */,
+				AF59D8C32449C95C00227096 /* XIB's */,
+				AF631CA6240B91A4000CFFC6 /* View */,
+				AF631CA5240B9038000CFFC6 /* Controller */,
+				AF631CA8240B91B2000CFFC6 /* Storyboards */,
+				AF631C99240A38F6000CFFC6 /* GoogleService-Info.plist */,
 				AF5FA2F8240742B7008A8C16 /* Info.plist */,
 			);
 			path = EasyConnectServices;
@@ -92,7 +203,10 @@
 		AF5FA2FF240742D2008A8C16 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				AF631CA7240B91AB000CFFC6 /* Model */,
+				AFA8009E24162D0700717AA1 /* View */,
 				AF5FA2F3240742B7008A8C16 /* Assets.xcassets */,
+				AFA8009F24162D1F00717AA1 /* Utls */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -102,12 +216,97 @@
 			children = (
 				AF5FA30624074301008A8C16 /* AppDelegate.swift */,
 				AF5FA30824074301008A8C16 /* SceneDelegate.swift */,
-				AF5FA30A24074301008A8C16 /* ViewController.swift */,
+				AF6F8A392466EB9E009A7720 /* Controllers */,
+				AF6F8A2F24666D08009A7720 /* LoginStoryboard.storyboard */,
 				AF5FA30C24074301008A8C16 /* Main.storyboard */,
 				AF5FA31124074303008A8C16 /* LaunchScreen.storyboard */,
+				AF631C9B240A3AB8000CFFC6 /* GoogleService-Info.plist */,
 				AF5FA31424074303008A8C16 /* Info.plist */,
 			);
 			path = EasyConnectServicesAdmin;
+			sourceTree = "<group>";
+		};
+		AF631CA5240B9038000CFFC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FA2EA240742B5008A8C16 /* AppDelegate.swift */,
+				AF59D8E9244C779C00227096 /* PeopleVC.swift */,
+				AF5FA2EC240742B5008A8C16 /* SceneDelegate.swift */,
+				AFA800A524171F9C00717AA1 /* HomeVC.swift */,
+				AF631CA9240B91F0000CFFC6 /* LoginVC.swift */,
+				AF631CAB240B9204000CFFC6 /* RegisterVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF631CA6240B91A4000CFFC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF631CA7240B91AB000CFFC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF59D8D4244AB80500227096 /* Category.swift */,
+				AF59D8EC244C77E500227096 /* People.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF631CA8240B91B2000CFFC6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AF631C93240A1802000CFFC6 /* LoginStoryboard.storyboard */,
+				AF5FA2F0240742B5008A8C16 /* Main.storyboard */,
+				AF5FA2F5240742B7008A8C16 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AF6F8A392466EB9E009A7720 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FA30A24074301008A8C16 /* ViewController.swift */,
+				AF6F8A352466E810009A7720 /* AdminRegisterVC.swift */,
+				AF6F8A312466E1AC009A7720 /* EasyConnectServicesAdminVC.swift */,
+				AF6F8A332466E7FA009A7720 /* AdminLoginVC.swift */,
+				AF6F8A2D24654D07009A7720 /* EditProfileVC.swift */,
+				AF6F8A3D2466F1AA009A7720 /* InfoVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AFA8009E24162D0700717AA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFA800A024162D3E00717AA1 /* RoundedViews.swift */,
+				AF59D8F5244D2F8A00227096 /* PeopleCell.swift */,
+				AF59D8F6244D2F8A00227096 /* PeopleCell.xib */,
+				AF59D8DD244C18B600227096 /* CategoryCell.swift */,
+				AF59D8DE244C18B600227096 /* CategoryCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AFA8009F24162D1F00717AA1 /* Utls */ = {
+			isa = PBXGroup;
+			children = (
+				AFA800962416166000717AA1 /* Extension.swift */,
+				AF59D8CB2449E61500227096 /* FirebaseUlts.swift */,
+				AFA800982416166C00717AA1 /* Constants.swift */,
+			);
+			path = Utls;
+			sourceTree = "<group>";
+		};
+		C74978DD46DA74DC2EDDF21C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0A730F6887BED871C7AE4C /* Pods_EasyConnectServices.framework */,
+				35D64953830D9B58C01438EA /* Pods_EasyConnectServicesAdmin.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF5FA2FB240742B7008A8C16 /* Build configuration list for PBXNativeTarget "EasyConnectServices" */;
 			buildPhases = (
+				46BBD77781379D46F6820D01 /* [CP] Check Pods Manifest.lock */,
 				AF5FA2E3240742B5008A8C16 /* Sources */,
 				AF5FA2E4240742B5008A8C16 /* Frameworks */,
 				AF5FA2E5240742B5008A8C16 /* Resources */,
+				8A5C5D8CE5BD464A4314D98D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,9 +335,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF5FA31524074303008A8C16 /* Build configuration list for PBXNativeTarget "EasyConnectServicesAdmin" */;
 			buildPhases = (
+				401A5D8A5C743947C40EA76F /* [CP] Check Pods Manifest.lock */,
 				AF5FA30024074301008A8C16 /* Sources */,
 				AF5FA30124074301008A8C16 /* Frameworks */,
 				AF5FA30224074301008A8C16 /* Resources */,
+				272E084109E2CCEB37F762C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,8 +393,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF5FA2F7240742B7008A8C16 /* LaunchScreen.storyboard in Resources */,
+				AF59D8E1244C18B600227096 /* CategoryCell.xib in Resources */,
 				AF5FA2F4240742B7008A8C16 /* Assets.xcassets in Resources */,
 				AF5FA2F2240742B5008A8C16 /* Main.storyboard in Resources */,
+				AF59D8F9244D2F8A00227096 /* PeopleCell.xib in Resources */,
+				AF631C94240A1802000CFFC6 /* LoginStoryboard.storyboard in Resources */,
+				AF4618C4245AA0B700C5AA35 /* PeoplePhotoVC.xib in Resources */,
+				AF59D8C72449C97D00227096 /* ForgetPasswordVC.xib in Resources */,
+				AF46190E2460404200C5AA35 /* PeopleDetailVC.xib in Resources */,
+				AF631C9A240A38F6000CFFC6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,22 +409,124 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6F8A3024666D08009A7720 /* LoginStoryboard.storyboard in Resources */,
+				AF59D8E2244C18B600227096 /* CategoryCell.xib in Resources */,
 				AF5FA31324074303008A8C16 /* LaunchScreen.storyboard in Resources */,
-				AF5FA3182407431D008A8C16 /* Assets.xcassets in Resources */,
+				AF631C9C240A3AB8000CFFC6 /* GoogleService-Info.plist in Resources */,
+				AF6F8A3B2466EC55009A7720 /* ForgetPasswordVC.xib in Resources */,
+				AF46190F2460404200C5AA35 /* PeopleDetailVC.xib in Resources */,
+				AF4618C5245AA0B700C5AA35 /* PeoplePhotoVC.xib in Resources */,
+				AF59D8FA244D2F8A00227096 /* PeopleCell.xib in Resources */,
+				AF6F8A2C24644750009A7720 /* Assets.xcassets in Resources */,
 				AF5FA30E24074301008A8C16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		272E084109E2CCEB37F762C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyConnectServicesAdmin/Pods-EasyConnectServicesAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyConnectServicesAdmin/Pods-EasyConnectServicesAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyConnectServicesAdmin/Pods-EasyConnectServicesAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		401A5D8A5C743947C40EA76F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyConnectServicesAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46BBD77781379D46F6820D01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyConnectServices-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5C5D8CE5BD464A4314D98D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyConnectServices/Pods-EasyConnectServices-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyConnectServices/Pods-EasyConnectServices-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyConnectServices/Pods-EasyConnectServices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF5FA2E3240742B5008A8C16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5FA2EF240742B5008A8C16 /* ViewController.swift in Sources */,
+				AF59D8CC2449E61500227096 /* FirebaseUlts.swift in Sources */,
 				AF5FA2EB240742B5008A8C16 /* AppDelegate.swift in Sources */,
+				AF59D8F7244D2F8A00227096 /* PeopleCell.swift in Sources */,
+				AF59D8C62449C97D00227096 /* ForgetPasswordVC.swift in Sources */,
+				AFA800A624171F9C00717AA1 /* HomeVC.swift in Sources */,
+				AF631CAA240B91F0000CFFC6 /* LoginVC.swift in Sources */,
+				AFA800972416166000717AA1 /* Extension.swift in Sources */,
+				AF59D8ED244C77E500227096 /* People.swift in Sources */,
+				AFA800A124162D3E00717AA1 /* RoundedViews.swift in Sources */,
+				AFA800992416166C00717AA1 /* Constants.swift in Sources */,
+				AF4618C2245AA0B700C5AA35 /* PeoplePhotoVC.swift in Sources */,
 				AF5FA2ED240742B5008A8C16 /* SceneDelegate.swift in Sources */,
+				AF631CAC240B9204000CFFC6 /* RegisterVC.swift in Sources */,
+				AF59D8EA244C779D00227096 /* PeopleVC.swift in Sources */,
+				AF59D8D5244AB80500227096 /* Category.swift in Sources */,
+				AF46190C2460404200C5AA35 /* PeopleDetailVC.swift in Sources */,
+				AF59D8DF244C18B600227096 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +534,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF59D8CD2449E61500227096 /* FirebaseUlts.swift in Sources */,
+				AFA800A224162D3E00717AA1 /* RoundedViews.swift in Sources */,
+				AF59D8F8244D2F8A00227096 /* PeopleCell.swift in Sources */,
+				AF6F8A382466EA52009A7720 /* LoginVC.swift in Sources */,
+				AF6F8A3E2466F1AA009A7720 /* InfoVC.swift in Sources */,
 				AF5FA30B24074301008A8C16 /* ViewController.swift in Sources */,
+				AF6F8A2E24654D07009A7720 /* EditProfileVC.swift in Sources */,
+				AF46190D2460404200C5AA35 /* PeopleDetailVC.swift in Sources */,
+				AF59D8E0244C18B600227096 /* CategoryCell.swift in Sources */,
+				AF59D8EE244C77E500227096 /* People.swift in Sources */,
+				AF6F8A342466E7FB009A7720 /* AdminLoginVC.swift in Sources */,
+				AF6F8A362466E810009A7720 /* AdminRegisterVC.swift in Sources */,
+				AF6F8A322466E1AC009A7720 /* EasyConnectServicesAdminVC.swift in Sources */,
+				AF4619302462733400C5AA35 /* Constants.swift in Sources */,
 				AF5FA30724074301008A8C16 /* AppDelegate.swift in Sources */,
 				AF5FA30924074301008A8C16 /* SceneDelegate.swift in Sources */,
+				AF6F8A3A2466EC28009A7720 /* Extension.swift in Sources */,
+				AF4618C3245AA0B700C5AA35 /* PeoplePhotoVC.swift in Sources */,
+				AF6F8A372466EA4E009A7720 /* RegisterVC.swift in Sources */,
+				AF59D8D6244AB80500227096 /* Category.swift in Sources */,
+				AF6F8A3C2466EC5A009A7720 /* ForgetPasswordVC.swift in Sources */,
+				AF59D8EB244C779D00227096 /* PeopleVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +713,7 @@
 		};
 		AF5FA2FC240742B7008A8C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D052AB6E14390F8C1F9D1222 /* Pods-EasyConnectServices.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +732,7 @@
 		};
 		AF5FA2FD240742B7008A8C16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43069032FAE0DE40B135205D /* Pods-EasyConnectServices.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -418,6 +751,7 @@
 		};
 		AF5FA31624074303008A8C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782F39D4CE11C7F9D659E64E /* Pods-EasyConnectServicesAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +770,7 @@
 		};
 		AF5FA31724074303008A8C16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A7769BDB183BAE5714058D /* Pods-EasyConnectServicesAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

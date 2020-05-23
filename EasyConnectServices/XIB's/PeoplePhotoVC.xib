@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PeoplePhotoVC" customModule="EasyConnectServices" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="MXA-wy-Uck" id="pfU-Ty-j3g"/>
+                <outlet property="peopleImgView" destination="gGI-Mw-TYs" id="OTg-iz-Wrc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MXA-wy-Uck">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="KAF-ua-zPU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="regular"/>
+                </visualEffectView>
+                <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31q-Rx-rop" customClass="RoundedShadowView" customModule="EasyConnectServices" customModuleProvider="target">
+                    <rect key="frame" x="20" y="261.5" width="374" height="373"/>
+                    <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="373" id="ijU-9s-5u2"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgImage" translatesAutoresizingMaskIntoConstraints="NO" id="gGI-Mw-TYs" customClass="RoundedImageView" customModule="EasyConnectServices" customModuleProvider="target">
+                    <rect key="frame" x="40" y="281.5" width="334" height="333"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gGI-Mw-TYs" secondAttribute="trailing" constant="40" id="67A-5e-Blq"/>
+                <constraint firstItem="31q-Rx-rop" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Cl5-8h-U27"/>
+                <constraint firstAttribute="bottom" secondItem="MXA-wy-Uck" secondAttribute="bottom" id="DPC-y1-SqQ"/>
+                <constraint firstItem="31q-Rx-rop" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="MdC-Pk-n3A"/>
+                <constraint firstItem="gGI-Mw-TYs" firstAttribute="bottom" secondItem="31q-Rx-rop" secondAttribute="bottom" constant="-20" id="Tu3-5k-KEn"/>
+                <constraint firstItem="MXA-wy-Uck" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="XrH-le-XtY"/>
+                <constraint firstItem="gGI-Mw-TYs" firstAttribute="top" secondItem="31q-Rx-rop" secondAttribute="top" constant="20" id="b5i-JB-f15"/>
+                <constraint firstItem="MXA-wy-Uck" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fYc-u0-Smv"/>
+                <constraint firstItem="MXA-wy-Uck" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="i9H-GR-Ij6"/>
+                <constraint firstItem="gGI-Mw-TYs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="nPU-u6-oNP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="31q-Rx-rop" secondAttribute="trailing" constant="20" id="r6n-Ho-Tcv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="105.80357142857143"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bgImage" width="500" height="333"/>
+    </resources>
+</document>

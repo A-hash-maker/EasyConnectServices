@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to navigate you to that location</string>
+	<key>CLIENT_ID</key>
+	<string>556440507203-98v76bac1qpg0n7hobt7ld9tg2st6spl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.556440507203-98v76bac1qpg0n7hobt7ld9tg2st6spl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBDNVl5fPu_UcSoRxb6PM-Fg7o4OkH7iM8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>556440507203</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Code.EasyConnectServices</string>
+	<key>PROJECT_ID</key>
+	<string>easyconnectservices-dfe91</string>
+	<key>STORAGE_BUCKET</key>
+	<string>easyconnectservices-dfe91.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:556440507203:ios:03f2891e412dda09e0d5f6</string>
+	<key>DATABASE_URL</key>
+	<string>https://easyconnectservices-dfe91.firebaseio.com</string>
+</dict>
+</plist>
